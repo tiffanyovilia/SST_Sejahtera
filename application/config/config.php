@@ -55,10 +55,10 @@ $config['compress_output']      = FALSE;
 $config['time_reference']       = 'local';
 $config['rewrite_short_tags']   = FALSE;
 $config['proxy_ips']            = '';
-$config['project']              = 'SILANDIK';
-$config['nama_pendek']          = 'SILANDIK';
-$config['sub_title']            = 'Sistem Informasi Laboratorium Pendidikan';
-$config['title']                = 'Sistem Informasi Laboratorium Pendidikan';
+$config['project']              = 'SST SEJAHTERA';
+$config['nama_pendek']          = 'SST SEJAHTERA';
+$config['sub_title']            = 'Sistem Stok Toko Sejahtera';
+$config['title']                = 'Sistem Stok Toko Sejahtera';
 $config['fonts_path']           = 'system/fonts/';
 
 /* End of file config.php */

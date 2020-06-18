@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php echo $this->config->item('title')?></title>
-    <link rel="shortcut icon" href="<?php echo base_url('assets/img/title.png'); ?>" />
+    <link rel="shortcut icon" href="<?php echo base_url('assets/img/globe-icon.png'); ?>" />
     <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.5 -->
@@ -41,7 +41,7 @@
   <link rel="stylesheet" href="<?=base_url();?>assets/plugins/pace/pace.min.css">
   <link href="<?=base_url();?>assets/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
   </head>
-  <body class="hold-transition skin-purple-light sidebar-mini fixed">
+  <body class="hold-transition skin-yellow sidebar-mini fixed">
   <style type="text/css">
   .not-active {
    pointer-events: none;
@@ -100,7 +100,7 @@
             </div>
           </div>
           <ul class="sidebar-menu">
-            <li class="header" style="background:#E8E8E8;"><b>Menu Utama</b></li>
+            <li class="header" style="background:#FF8C00;"><b>Menu Utama</b></li>
             <li class="active treeview">
               
              
@@ -133,7 +133,7 @@
         <div class="pull-right hidden-xs">
           <b>Version</b> 1.0.0
         </div>
-        <strong>Copyright &copy; 2020 KHOLIQ BUDIMAN.</strong>
+        <strong>Copyright &copy; Tiffany Fikry Chyntia.</strong>
       </footer>
 
       <!-- Control Sidebar -->
@@ -202,7 +202,7 @@
     var site = '<?php echo site_url();?>';
     var base = '<?php echo base_url();?>';
     var gbr1 = '<?php echo base_url().'assets/img/loaders/biru.jpg'; ?>'
-    var gbr2 = '<?php echo base_url().'assets/img/loaders/4.gif'; ?>'
+    var gbr2 = '<?php echo base_url().'assets/img/loaders/11.gif'; ?>'
       $.widget.bridge('uibutton', $.ui.button);
     $(function() {
       $('#Dashboard').click();
